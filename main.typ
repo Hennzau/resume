@@ -4,60 +4,85 @@
   number-align: center,
 )
 
+#let entete1 = 10%
+#let entete2 = 10%
+#let recherche = 7%
+
+#let main1 = 25%
+#let main2 = 25%
+#let engagement = 23%
+
 #let cadre_photo() = {
-  rect(fill: red, width: 100%, height: 200pt)[Photo]
+  rect(fill: red, width: 100%, height: 100%)[Photo]
 }
 
 #let cadre_nom() = {
-  rect(fill: blue, width: 100%, height: 120pt)[Nom]
+  rect(fill: blue, width: 100%, height: 100%)[Nom]
+}
+
+#let cadre_contact() = {
+  rect(fill: yellow, width: 100%, height: 100%)[Contact]
 }
 
 #let cadre_recherche() = {
-  rect(fill: green, width: 100%, height: 75pt)[Recherche]
+  rect(fill: green, width: 100%, height: 100%)[Recherche]
 }
 
 #let cadre_divers() = {
-  rect(fill: yellow, width: 100%, height: 350pt)[Divers]
+  rect(fill: yellow, width: 100%, height: 100%)[Divers]
 }
 
 #let cadre_formation() = {
-  rect(fill: orange, width: 100%, height: 350pt)[Formation]
+  rect(fill: orange, width: 100%, height: 100%)[Formation]
 }
 
 #let cadre_engagement() = {
-  rect(fill: gray, width: 100%, height: 150pt)[Engagement]
-}
-
-#let cadre_experience() = {
-  rect(fill: pink, width: 100%, height: 150pt)[Expérience]
+  rect(fill: gray, width: 100%, height: 100%)[Engagement]
 }
 
 #grid(
-  columns: (30%, 70%),
-  rows: (auto),
-  gutter: 3pt,
-  cadre_photo(),
-  cadre_nom()
-)
-
-#grid(
-  columns: (100%),
-  rows: (auto),
-  gutter: 3pt,
-  cadre_recherche(),
-)
-
-#grid(
-  columns: (30%, 70%),
-  rows: (auto),
-  gutter: 3pt,
-  cadre_divers(),
-  cadre_formation()
-)
-
-#grid(
-  columns: (100%),
-  rows: (auto),
-  gutter: 3pt,
-  cadre_engagement()
+  columns: (20%, 10%, 70%),
+  rows: (entete1, entete2, recherche, main1, main2, engagement),
+  grid.cell(
+    x: 0,
+    y: 0,
+    rowspan: 2,
+    colspan: 1,
+  )[#cadre_photo()],
+  grid.cell(
+    x: 1,
+    y: 0,
+    rowspan: 1,
+    colspan: 2,
+  )[#cadre_nom()],
+  grid.cell(
+    x: 1,
+    y: 1,
+    rowspan: 1,
+    colspan: 2,
+  )[#cadre_contact()],
+  grid.cell(
+    x: 0,
+    y: 2,
+    rowspan: 1,
+    colspan: 3,
+  )[#cadre_recherche()],
+  grid.cell(
+    x: 0,
+    y: 3,
+    rowspan: 2,
+    colspan: 2,
+  )[#cadre_divers()],
+  grid.cell(
+    x: 2,
+    y: 3,
+    rowspan: 2,
+    colspan: 1,
+  )[#cadre_formation()],
+  grid.cell(
+    x: 0,
+    y: 5,
+    rowspan: 1,
+    colspan: 3,
+  )[#cadre_engagement()],
 )
