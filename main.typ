@@ -9,14 +9,7 @@
   number-align: center,
   background: {
     place(top, rect(fill: gray, width: 100%, height: 10%))
-    place(bottom, rect(fill: gray, width: 100%, height: 2%))
-    /*place(bottom+right, {
-      move(dx: -3pt, dy: -3pt)[
-        #text(fill: white, font: my_font, size: 8pt)[
-          mis à jour le 09/2024
-        ]
-      ]
-    })*/
+    place(bottom, rect(fill: gray, width: 100%, height: 4%))
   }
 )
 
@@ -28,7 +21,7 @@
 #let v_nom = 17%
 #let v_recherche = 8%
 #let v_formation = 15%
-#let v_projet = 30%
+#let v_projet = 25%
 #let v_experience = 100% - v_photo - v_recherche - v_formation - v_projet
 
 #let cadre_photo() = {
@@ -43,23 +36,18 @@
   align(center + bottom)[
     #box(width: 85%, height: 80%, stroke: orange + 4pt, fill: white)[
       #align(center + top)[
-      #move(dy: 15pt)[
+      #move(dy: 25pt)[
           #text(font: my_font, fill: gray, size: 30pt, weight: "extralight", spacing: 100%, tracking: 4pt)[
             Enzo LE VAN
           ]
           #linebreak()
-          #move(dy: 0pt)[
+          #move(dy: 10pt)[
             #text(font: my_font, fill: gray, size: 15pt, weight: "bold", tracking: 4pt)[
               Elève en 2ème année à
             ]
             #linebreak()
             #text(font: my_font, fill: gray, size: 15pt, weight: "bold", tracking: 4pt)[
               CentraleSupélec
-            ]
-          ]
-          #move(dy: 0pt)[
-            #text(font: my_font, fill: gray, size: 10pt, weight: "extralight", tracking: 4pt)[
-              Alumni du lycée privé Sainte-Geneviève
             ]
           ]
         ]
@@ -83,8 +71,8 @@
     #line(length: 90%, stroke: orange + 2pt)
   ]
   align(center)[
-    #move(dy: 14pt)[
-      #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
+    #move(dy: 18pt)[
+      #text(font: my_font, fill: gray, size: 10pt, weight: "semibold")[
         En recherche d'un stage de césure d'une durée de 6 mois à partir de septembre dans les domaines de l'informatique ou robotique où je pourrais en apprendre plus sur le rôle d'un ingénieur dans ces milieux.
       ]
     ]
@@ -108,7 +96,7 @@
     ]
 
     align(center)[
-      #move(dy: 5pt)[
+      #move(dy: 0pt)[
         #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
           Anglais : C1
         ]
@@ -137,7 +125,7 @@
     ]
 
     align(center)[
-      #move(dy: 5pt)[
+      #move(dy: 0pt)[
         #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
           Piano depuis 6 ans
           #linebreak()
@@ -178,11 +166,15 @@
     ]
 
     align(center)[
-      #move(dy: 5pt)[
+      #move(dy: 0pt)[
         #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
           Electronique
           #linebreak()
-          Guitare depuis 7 ans
+          Programmation
+          #linebreak()
+          Logiciels JetBrains
+          #linebreak()
+          GitHub CI/CD
         ]
         #linebreak()
         #linebreak()
@@ -219,6 +211,28 @@
   move(dx: 150pt, dy: -30pt)[
     #line(length: 225pt, stroke: orange + 2pt)
   ]
+
+  move(dy: -16pt)[
+    #list(
+      indent: 15pt,
+      tight: false,
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold")[2ème année Ingénieur] : Energie électrique, systèmes électroniques, physique
+          des ondes, thermodynamique, thermique, véhicules autonomes
+          #linebreak()
+          #text(weight: "semibold")[Ecole CentraleSupélec | Gif-sur-Yvette]
+        ]
+      ],
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold")[MPSI/PSI\*] : Mathématiques, Physique, 30/08/2021 - 1/09/2023
+          #linebreak()
+          #text(weight: "semibold")[Lycée Privé Sainte-Geneviève | Versailles]
+        ]
+      ]
+    )
+  ]
 }
 
 #let cadre_projet() = {
@@ -235,18 +249,100 @@
   move(dx: 150pt, dy: -30pt)[
     #line(length: 225pt, stroke: orange + 2pt)
   ]
+
+  move(dy: -16pt)[
+    #list(
+      indent: 15pt,
+      tight: false,
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold", size: 12pt)[`zz`] : `CLI` pour une utilisation simplifiée de Python (`venv` et `pip`)
+          #linebreak()
+          #text(weight: "semibold")[CentraleSupélec | Rust]
+        ]
+      ],
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold", size: 12pt)[`fastformat`] : Bibliothèque de conversion de données réelles en différents formats utilisable par divers framework
+          #linebreak()
+          #text(weight: "semibold")[Equipe #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
+        ]
+      ],
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold", size: 12pt)[`dora-rs`] : Framework de robotique (contribution)
+          #linebreak()
+          #text(weight: "semibold")[Equipe #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
+        ]
+      ],
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : Intégration de dora-rs et LeRobot sur des robots réels
+          #linebreak()
+          #text(weight: "semibold")[HuggingFace | Python]
+        ]
+      ],
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold", size: 12pt)[`RoverCS`] : Création d'un rover autonome en équipe, 02/2024 - 06/2024
+          #linebreak()
+          #text(weight: "semibold")[NXP Cup | Python & C]
+        ]
+      ],
+    )
+  ]
 }
 
 #let cadre_experience() = {
   move(dx: 5%, dy: 28pt)[
     #line(length: 90%, stroke: orange + 2pt)
   ]
-  move(dx: h_divers, dy: 0pt)[
+
+  move(dx: 50% - 75pt, dy: 0pt)[
     #box(fill: gray, width: 150pt, height: 30pt)[
       #align(center + horizon)[
         #text(font: my_font, size: 14pt, weight: "semibold", fill: white, tracking: 2pt)[
           Expérience
         ]
+      ]
+    ]
+  ]
+
+  align(center + top)[
+    #let pad = 3pt
+    #move(dy: pad)[
+      #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+        #text(weight: "semibold")[Stagiaire opérateur], 06/2024 - 07/2024
+        #linebreak()
+        Production de parafoudre basse tension • #text(weight: "semibold")[Lyon] • Eurotect Electrical
+      ]
+    ]
+    #move(dy: pad)[
+      #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+        #text(weight: "semibold")[Stagiaire 1ms.ai et HuggingFace], 05/2024 - 09/2024
+        #linebreak()
+        Production de parafoudre basse tension • #text(weight: "semibold")[Paris] • 1ms.ai & HuggingFace
+      ]
+    ]
+    #move(dy: pad)[
+      #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+        #text(weight: "semibold")[Staffeur çapèse soirées], 09/2023 - Aujourd'hui
+        #linebreak()
+        Surveillance anti VSS • #text(weight: "semibold")[Gif-sur-Yvette] • Association çapèse
+      ]
+    ]
+    #move(dy: pad)[
+      #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+        #text(weight: "semibold")[Staffeur Pépin], 09/2023 - Aujourd'hui
+        #linebreak()
+        Préparateur de commandes de produits locaux • #text(weight: "semibold")[Gif-sur-Yvette] • Association Impact
+      ]
+    ]
+    #move(dy: pad)[
+      #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+        #text(weight: "semibold")[Aide aux devoirs], 09/2021 - 06/2022
+        #linebreak()
+        Aide aux devoirs du collège • #text(weight: "semibold")[Versailles] • ARPEJ
       ]
     ]
   ]
