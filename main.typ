@@ -312,35 +312,35 @@
     #let pad = 3pt
     #move(dy: pad)[
       #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[Stagiaire opérateur], 06/2024 - 07/2024
+        #text(weight: "semibold")[• Stagiaire opérateur], 06/2024 - 07/2024
         #linebreak()
         Production de parafoudre basse tension • #text(weight: "semibold")[Lyon] • Eurotect Electrical
       ]
     ]
     #move(dy: pad)[
       #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[Stagiaire 1ms.ai et HuggingFace], 05/2024 - 09/2024
+        #text(weight: "semibold")[• Stagiaire 1ms.ai et HuggingFace], 05/2024 - 09/2024
         #linebreak()
-        Production de parafoudre basse tension • #text(weight: "semibold")[Paris] • 1ms.ai & HuggingFace
+        Création de #text(weight: "semibold", size: 12pt)[`dora-lerobot`] • #text(weight: "semibold")[Paris] • 1ms.ai & HuggingFace
       ]
     ]
     #move(dy: pad)[
       #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[Staffeur çapèse soirées], 09/2023 - Aujourd'hui
+        #text(weight: "semibold")[• Staffeur çapèse soirées], 09/2023 - Aujourd'hui
         #linebreak()
         Surveillance anti VSS • #text(weight: "semibold")[Gif-sur-Yvette] • Association çapèse
       ]
     ]
     #move(dy: pad)[
       #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[Staffeur Pépin], 09/2023 - Aujourd'hui
+        #text(weight: "semibold")[• Staffeur Pépin], 09/2023 - Aujourd'hui
         #linebreak()
         Préparateur de commandes de produits locaux • #text(weight: "semibold")[Gif-sur-Yvette] • Association Impact
       ]
     ]
     #move(dy: pad)[
       #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[Aide aux devoirs], 09/2021 - 06/2022
+        #text(weight: "semibold")[• Aide aux devoirs], 09/2021 - 06/2022
         #linebreak()
         Aide aux devoirs du collège • #text(weight: "semibold")[Versailles] • ARPEJ
       ]
