@@ -9,7 +9,7 @@
   number-align: center,
   background: {
     place(top, rect(fill: gray, width: 100%, height: 10%))
-    place(bottom, rect(fill: gray, width: 100%, height: 10%))
+    place(bottom, rect(fill: gray, width: 100%, height: 2%))
     /*place(bottom+right, {
       move(dx: -3pt, dy: -3pt)[
         #text(fill: white, font: my_font, size: 8pt)[
@@ -106,6 +106,20 @@
         ]
       ]
     ]
+
+    align(center)[
+      #move(dy: 5pt)[
+        #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
+          Anglais : C1
+        ]
+        #linebreak()
+        #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
+          Espagnol : B2
+        ]
+        #linebreak()
+        #linebreak()
+      ]
+    ]
   }
   let loisirs() = {
     move(dx: 5%, dy: 15pt)[
@@ -119,6 +133,32 @@
             Loisirs
           ]
         ]
+      ]
+    ]
+
+    align(center)[
+      #move(dy: 5pt)[
+        #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
+          Piano depuis 6 ans
+          #linebreak()
+          Guitare depuis 7 ans
+        ]
+        #linebreak()
+        #linebreak()
+        #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
+          Wing Chun en club
+          #linebreak()
+          Escalade à CentraleSupélec
+        ]
+        #linebreak()
+        #linebreak()
+        #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
+          Java & C++ depuis 10 ans
+          #linebreak()
+          Rust depuis 2 ans
+        ]
+        #linebreak()
+        #linebreak()
       ]
     ]
   }
@@ -136,6 +176,18 @@
         ]
       ]
     ]
+
+    align(center)[
+      #move(dy: 5pt)[
+        #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
+          Electronique
+          #linebreak()
+          Guitare depuis 7 ans
+        ]
+        #linebreak()
+        #linebreak()
+      ]
+    ]
   }
 
   align(right)[
@@ -143,7 +195,7 @@
       #align(left)[
         #grid(
           columns: (100%),
-          rows: (33%, 33%, auto),
+          rows: (auto, auto, auto),
           langues(),
           loisirs(),
           competences()
@@ -186,10 +238,10 @@
 }
 
 #let cadre_experience() = {
-  move(dx: 5%, dy: 14pt)[
+  move(dx: 5%, dy: 28pt)[
     #line(length: 90%, stroke: orange + 2pt)
   ]
-  move(dx: h_divers, dy: -14pt)[
+  move(dx: h_divers, dy: 0pt)[
     #box(fill: gray, width: 150pt, height: 30pt)[
       #align(center + horizon)[
         #text(font: my_font, size: 14pt, weight: "semibold", fill: white, tracking: 2pt)[
