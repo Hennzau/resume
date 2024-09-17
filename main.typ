@@ -9,7 +9,7 @@
   number-align: center,
   background: {
     place(top, rect(fill: gray, width: 100%, height: 10%))
-    place(bottom, rect(fill: gray, width: 100%, height: 4%))
+    place(bottom, rect(fill: gray, width: 100%, height: 2%))
   }
 )
 
@@ -21,7 +21,7 @@
 #let v_nom = 17%
 #let v_recherche = 8%
 #let v_formation = 15%
-#let v_projet = 25%
+#let v_projet = 26%
 #let v_experience = 100% - v_photo - v_recherche - v_formation - v_projet
 
 #let cadre_photo() = {
