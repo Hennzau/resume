@@ -9,7 +9,7 @@
   number-align: center,
   background: {
     place(top, rect(fill: gray, width: 100%, height: 10%))
-    place(bottom, rect(fill: gray, width: 100%, height: 2%))
+    place(bottom, rect(fill: gray, width: 100%, height: 1%))
   }
 )
 
@@ -20,8 +20,8 @@
 #let v_photo = 21%
 #let v_nom = 17%
 #let v_recherche = 8%
-#let v_formation = 15%
-#let v_projet = 26%
+#let v_formation = 18%
+#let v_projet = 25%
 #let v_experience = 100% - v_photo - v_recherche - v_formation - v_projet
 
 #let cadre_photo() = {
@@ -59,8 +59,8 @@
 #let cadre_contact() = {
   align(center + horizon)[
     #move(dy: 6pt)[
-      #text(font: my_font, fill: gray, size: 13pt, weight: "semibold")[
-        e-mail : enzo.le-van\@student-cs.fr
+      #text(font: my_font, fill: gray, size: 9pt, weight: "semibold")[
+        enzo.le-van\@student-cs.fr | https://github.com/Hennzau | www.linkedin.com/in/enzo-le-van
       ]
     ]
   ]
@@ -136,7 +136,7 @@
         #text(font: my_font, fill: gray, size: 11pt, weight: "semibold")[
           Wing Chun en club
           #linebreak()
-          Escalade à CentraleSupélec
+          Escalade en EPS
         ]
         #linebreak()
         #linebreak()
@@ -216,6 +216,13 @@
     #list(
       indent: 15pt,
       tight: false,
+      [
+        #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
+          #text(weight: "semibold")[Echange universitaire] : 15/01/2025 - 7/06/2025
+          #linebreak()
+          #text(weight: "semibold")[Linköpings Universitet | Suède]
+        ]
+      ],
       [
         #text(font: my_font, fill: gray, size: 10pt, weight: "extralight")[
           #text(weight: "semibold")[2ème année Ingénieur] : Energie électrique, systèmes électroniques, physique
