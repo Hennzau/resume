@@ -19,6 +19,7 @@
   body) = {
   set document(author: author, title: title, date: date)
   set page(
+    fill: white,
     paper: "a4",
     margin: (top: 0pt, bottom: 0pt, left: 0pt, right: 0pt),
     background: {
