@@ -115,9 +115,9 @@
     align(center)[
       #move(dy: 0pt)[
         #text(size: 11pt, weight: "semibold")[
-          Piano for 6 ans
+          Piano for 6 years
           #linebreak()
-          Guitar for 7 ans
+          Guitar for 7 years
         ]
         #linebreak()
         #linebreak()
@@ -129,9 +129,9 @@
         #linebreak()
         #linebreak()
         #text(size: 11pt, weight: "semibold")[
-          Java & C++ for 10 ans
+          Java & C++ for 10 years
           #linebreak()
-          Rust for 2 ans
+          Rust for 2 years
         ]
         #linebreak()
         #linebreak()
