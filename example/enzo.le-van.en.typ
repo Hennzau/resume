@@ -23,7 +23,7 @@
           #linebreak()
           #move(dy: 10pt)[
             #text(size: 15pt, weight: "bold", tracking: 4pt)[
-              Elève en 2ème année à
+              2#super[nd] year student at
             ]
             #linebreak()
             #text(size: 15pt, weight: "bold", tracking: 4pt)[
@@ -54,9 +54,9 @@
     #move(dy: 18pt)[
       #text(size: 10pt, weight: "semibold")[
         #par(justify: true)[
-          Je suis à la recherche d'un stage de césure de 6 mois à partir du mois de juillet/août 2024 dans le domaine
+          I am looking for a 6-month gap year internship starting in July/August 2024 in the field of computer science,
           #linebreak(justify: true)
-          de l'informatique où je pourrai développer des applications logicielles pour de la robotique et/ou de l'embarqué.
+          where I can develop software applications for robotics and/or embedded systems.
         ]
       ]
     ]
@@ -73,7 +73,7 @@
       #move(dx: 0pt, dy: -5pt)[
         #highlight(fill: light_gray, extent: 8pt)[
           #text(size: 15pt, weight: "semibold", tracking: 2pt)[
-            Langues
+            Languages
           ]
         ]
       ]
@@ -82,15 +82,15 @@
     align(center)[
       #move(dy: 0pt)[
         #text(size: 11pt, weight: "semibold")[
-          Anglais : C1
+          English : C1
         ]
         #linebreak()
         #text(size: 11pt, weight: "semibold")[
-          Espagnol : B2
+          Spanish : B2
         ]
         #linebreak()
         #text(size: 11pt, weight: "semibold")[
-          Japonais : A1
+          Japanese : A1
         ]
         #linebreak()
         #linebreak()
@@ -106,7 +106,7 @@
       #move(dx: 0pt, dy: -5pt)[
         #highlight(fill: light_gray, extent: 8pt)[
           #text(size: 15pt, weight: "semibold", tracking: 2pt)[
-            Loisirs
+            Hobbies
           ]
         ]
       ]
@@ -115,23 +115,23 @@
     align(center)[
       #move(dy: 0pt)[
         #text(size: 11pt, weight: "semibold")[
-          Piano depuis 6 ans
+          Piano for 6 ans
           #linebreak()
-          Guitare depuis 7 ans
+          Guitar for 7 ans
         ]
         #linebreak()
         #linebreak()
         #text(size: 11pt, weight: "semibold")[
-          Wing Chun en club
+          Wing Chun in a club
           #linebreak()
-          Escalade en EPS
+          Climbing at school
         ]
         #linebreak()
         #linebreak()
         #text(size: 11pt, weight: "semibold")[
-          Java & C++ depuis 10 ans
+          Java & C++ for 10 ans
           #linebreak()
-          Rust depuis 2 ans
+          Rust for 2 ans
         ]
         #linebreak()
         #linebreak()
@@ -147,7 +147,7 @@
       #move(dx: 0pt, dy: -5pt)[
         #highlight(fill: light_gray, extent: 8pt)[
           #text(size: 15pt, weight: "semibold", tracking: 2pt)[
-            Compétences
+            Skills
           ]
         ]
       ]
@@ -156,15 +156,15 @@
     align(center)[
       #move(dy: 0pt)[
         #text(size: 11pt, weight: "semibold")[
-          Electronique
+          Electronic
           #linebreak()
           Rust C++ Python
           #linebreak()
-          Logiciels JetBrains
+          JetBrains IDE
           #linebreak()
           GitHub CI/CD
           #linebreak()
-          Architecture de projets
+          Projects structuration
         ]
         #linebreak()
         #linebreak()
@@ -192,7 +192,7 @@
     #box(fill: gray, width: 150pt, height: 30pt)[
       #align(center + horizon)[
         #text(size: 14pt, weight: "semibold", fill: white, tracking: 2pt)[
-          Formation
+          Education
         ]
       ]
     ]
@@ -208,22 +208,21 @@
       tight: false,
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold")[Echange universitaire] : Computer Science, 15/01/2025 - 7/06/2025
+          #text(weight: "semibold")[Exchange Studies] : Computer Science, 15/01/2025 - 7/06/2025
           #linebreak()
           #text(weight: "semibold")[Linköpings Universitet | Suède]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold")[2ème année Ingénieur] : Energie électrique, systèmes électroniques, physique
-          des ondes, thermodynamique, thermique, véhicules autonomes
+          #text(weight: "semibold")[2nd year Engineer] : Electrical energy, electronic systems, wave physics, thermodynamics, thermal, autonomous vehicles
           #linebreak()
-          #text(weight: "semibold")[Ecole CentraleSupélec | Gif-sur-Yvette]
+          #text(weight: "semibold")[CentraleSupélec | Gif-sur-Yvette]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold")[MPSI/PSI\*] : Mathématiques, Physique, 30/08/2021 - 1/09/2023
+          #text(weight: "semibold")[MPSI/PSI\*] : Mathematics, Physics, 30/08/2021 - 1/09/2023
           #linebreak()
           #text(weight: "semibold")[Lycée Privé Sainte-Geneviève | Versailles]
         ]
@@ -237,7 +236,7 @@
     #box(fill: gray, width: 150pt, height: 30pt)[
       #align(center + horizon)[
         #text(size: 14pt, weight: "semibold", fill: white, tracking: 2pt)[
-          Projets
+          Projects
         ]
       ]
     ]
@@ -253,39 +252,39 @@
       tight: false,
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`MarcsRover`] : Création d'une mini voiture autonome en équipe, 09/2024
+          #text(weight: "semibold", size: 12pt)[`MarcsRover`] : Building a mini autonomous car in team, 09/2024
           #linebreak()
           #text(weight: "semibold")[CoVAPSy | Python & Zenoh & Electronique]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`fastformat`] : Bibliothèque de conversion de données réelles (capteurs)
+          #text(weight: "semibold", size: 12pt)[`fastformat`] : Library for converting real data (sensors)
           #linebreak(justify: true)
-          vers un format générique utilisé par d'autres bibliothèques
+          to a generic format used by other libraries
           #linebreak()
-          #text(weight: "semibold")[Organisation #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
+          #text(weight: "semibold")[Organization #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-rs`] : Contribution à une bibliothèque de robotique
+          #text(weight: "semibold", size: 12pt)[`dora-rs`] : Contribution to a library for robotics
           #linebreak()
-          #text(weight: "semibold")[Organisation #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
+          #text(weight: "semibold")[Organization #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : Intégration d'une bibliothèque de robotique et d'IA
+          #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : Integration of a robotics and AI library
           #linebreak(justify: true)
-          sur des bras articulés
+          on articulated arms
           #linebreak()
           #text(weight: "semibold")[HuggingFace | Python]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`RoverCS`] : Création d'un rover autonome en équipe, 02/2024 - 06/2024
+          #text(weight: "semibold", size: 12pt)[`RoverCS`] : Building a mini autonomous car in team, 02/2024 - 06/2024
           #linebreak()
           #text(weight: "semibold")[NXP Cup | ROS2 & Python & C & Zephyr RTOS]
         ]
@@ -303,7 +302,7 @@
     #box(fill: gray, width: 150pt, height: 30pt)[
       #align(center + horizon)[
         #text(size: 14pt, weight: "semibold", fill: white, tracking: 2pt)[
-          Expérience
+          Experience
         ]
       ]
     ]
@@ -327,31 +326,31 @@
             indent: 15pt,
             tight: false,
             [
-              #text(size: 10pt, weight: "extralight")[
-                #text(weight: "semibold")[Staffeur anti VSS], 09/2023 - 01/2025
-                #linebreak()
-                Surveillance anti VSS lors des soirées étudiantes
-                #linebreak()
-                #text(weight: "semibold")[Gif-sur-Yvette] • Association çapèse
-              ]
+               #text(size: 10pt, weight: "extralight")[
+                 #text(weight: "semibold")[Anti-SGBV Staff Member], 09/2023 - 01/2025
+                 #linebreak()
+                 Anti-SGBV supervision during student parties
+                 #linebreak()
+                 #text(weight: "semibold")[Gif-sur-Yvette] • Association Çapèse
+               ]
             ],
             [
-              #text(size: 10pt, weight: "extralight")[
-                #text(weight: "semibold")[Staffeur commandes], 09/2023 - 01/2025
-                #linebreak()
-                Préparateur de commandes de produits locaux
-                #linebreak()
-                #text(weight: "semibold")[Gif-sur-Yvette] • Association Impact - Pépin
-              ]
+               #text(size: 10pt, weight: "extralight")[
+                 #text(weight: "semibold")[Order Handler], 09/2023 - 01/2025
+                 #linebreak()
+                 Preparing orders of local products
+                 #linebreak()
+                 #text(weight: "semibold")[Gif-sur-Yvette] • Association Impact - Pépin
+               ]
             ],
             [
-              #text(size: 10pt, weight: "extralight")[
-                #text(weight: "semibold")[Aide aux devoirs], 09/2021 - 06/2022
-                #linebreak()
-                Aide aux devoirs du collège
-                #linebreak()
-                #text(weight: "semibold")[Versailles] • ARPEJ
-              ]
+               #text(size: 10pt, weight: "extralight")[
+                 #text(weight: "semibold")[Homework Assistant], 09/2021 - 06/2022
+                 #linebreak()
+                 Tutoring middle school students
+                 #linebreak()
+                 #text(weight: "semibold")[Versailles] • ARPEJ
+               ]
             ]
           )
         ]
@@ -369,26 +368,26 @@
             indent: 15pt,
             tight: false,
             [
-              #text(size: 10pt, weight: "extralight")[
-                #text(weight: "semibold")[Contributeur robotique et IA], 05/2024 - 09/2024
-                #linebreak()
-                Création de #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : programmation de bras
-                #linebreak()
-                articulés faible et gros budget pour de l'apprentissage
-                #linebreak()
-                par téléopération
-                #linebreak()
-                #text(weight: "semibold")[Paris] • 1ms.ai & HuggingFace
-              ]
+               #text(size: 10pt, weight: "extralight")[
+                 #text(weight: "semibold")[Robotics and AI Contributor], 05/2024 - 09/2024
+                 #linebreak()
+                 Creation of #text(weight: "semibold", size: 12pt)[`dora-lerobot`]: programming of
+                 #linebreak()
+                 low- and high-budget articulated arms for learning
+                 #linebreak()
+                 through teleoperation
+                 #linebreak()
+                 #text(weight: "semibold")[Paris] • 1ms.ai & HuggingFace
+               ]
             ],
             [
-              #text(size: 10pt, weight: "extralight")[
-                #text(weight: "semibold")[Stagiaire opérateur], 06/2024 - 07/2024
-                #linebreak()
-                Production de parafoudre basse tension
-                #linebreak()
-                #text(weight: "semibold")[Lyon] • Eurotect Electrical
-              ]
+               #text(size: 10pt, weight: "extralight")[
+                 #text(weight: "semibold")[Operator Intern], 06/2024 - 07/2024
+                 #linebreak()
+                 Production of low-voltage surge arresters
+                 #linebreak()
+                 #text(weight: "semibold")[Lyon] • Eurotect Electrical
+               ]
             ],
           )
         ]
