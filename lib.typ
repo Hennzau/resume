@@ -4,7 +4,7 @@
   date: none,
 
   vertical_lines: (25%, 13%, 62%),
-  horizontal_lines: (17%, 4%, 8%, 18%, 25%, 28%),
+  horizontal_lines: (17%, 4%, 8%, 18%, 27%, 26%),
   frames: none,
 
   main_color: rgb("#303848"),

@@ -40,7 +40,7 @@
   align(center + horizon)[
     #move(dy: 6pt)[
       #text(size: 9pt, weight: "semibold")[
-        enzo.le-van\@student-cs.fr | https://github.com/Hennzau | www.linkedin.com/in/enzo-le-van
+        e-mail : enzo.le-van\@student-cs.fr | #link("https://github.com/Hennzau")[GitHub : \@Hennzau] | #link("www.linkedin.com/in/enzo-le-van")[Linkedin : \@enzo-le-van]
       ]
     ]
   ]
@@ -53,7 +53,11 @@
   align(center)[
     #move(dy: 18pt)[
       #text(size: 10pt, weight: "semibold")[
-        En recherche d'un stage de césure d'une durée de 6 mois à partir de septembre dans les domaines de l'informatique ou robotique où je pourrais en apprendre plus sur le rôle d'un ingénieur dans ces milieux.
+        #par(justify: true)[
+          Je suis à la recherche d'un stage de césure de 6 mois à partir du mois de juillet/août 2024 dans le domaine
+          #linebreak(justify: true)
+          de l'informatique où je pourrai développer des applications logicielles pour de la robotique et/ou de l'embarqué.
+        ]
       ]
     ]
   ]
@@ -150,11 +154,13 @@
         #text(size: 11pt, weight: "semibold")[
           Electronique
           #linebreak()
-          Programmation
+          Rust C++ Python
           #linebreak()
           Logiciels JetBrains
           #linebreak()
           GitHub CI/CD
+          #linebreak()
+          Architecture de projets
         ]
         #linebreak()
         #linebreak()
@@ -198,7 +204,7 @@
       tight: false,
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold")[Echange universitaire] : 15/01/2025 - 7/06/2025
+          #text(weight: "semibold")[Echange universitaire] : Computer Science, 15/01/2025 - 7/06/2025
           #linebreak()
           #text(weight: "semibold")[Linköpings Universitet | Suède]
         ]
@@ -243,28 +249,32 @@
       tight: false,
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`zz`] : `CLI` pour une utilisation simplifiée de Python (`venv` et `pip`)
+          #text(weight: "semibold", size: 12pt)[`MarcsRover`] : Création d'une mini voiture autonome en équipe, 09/2024
           #linebreak()
-          #text(weight: "semibold")[CentraleSupélec | Rust]
+          #text(weight: "semibold")[CoVAPSy | Python & Zenoh & Electronique]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`fastformat`] : Bibliothèque de conversion de données réelles en différents formats utilisable par divers framework
+          #text(weight: "semibold", size: 12pt)[`fastformat`] : Bibliothèque de conversion de données réelles (capteurs)
+          #linebreak(justify: true)
+          vers un format générique utilisé par d'autres bibliothèques
           #linebreak()
-          #text(weight: "semibold")[Equipe #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
+          #text(weight: "semibold")[Organisation #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-rs`] : Framework de robotique (contribution)
+          #text(weight: "semibold", size: 12pt)[`dora-rs`] : Contribution à une bibliothèque de robotique
           #linebreak()
-          #text(weight: "semibold")[Equipe #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
+          #text(weight: "semibold")[Organisation #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
         ]
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : Intégration de dora-rs et LeRobot sur des robots réels
+          #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : Intégration d'une bibliothèque de robotique et d'IA
+          #linebreak(justify: true)
+          sur des bras articulés
           #linebreak()
           #text(weight: "semibold")[HuggingFace | Python]
         ]
@@ -273,7 +283,7 @@
         #text(size: 10pt, weight: "extralight")[
           #text(weight: "semibold", size: 12pt)[`RoverCS`] : Création d'un rover autonome en équipe, 02/2024 - 06/2024
           #linebreak()
-          #text(weight: "semibold")[NXP Cup | Python & C]
+          #text(weight: "semibold")[NXP Cup | ROS2 & Python & C & Zephyr RTOS]
         ]
       ],
     )
@@ -295,44 +305,92 @@
     ]
   ]
 
-  align(center + top)[
-    #let pad = 3pt
-    #move(dy: pad)[
-      #text(size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[• Stagiaire opérateur], 06/2024 - 07/2024
-        #linebreak()
-        Production de parafoudre basse tension • #text(weight: "semibold")[Lyon] • Eurotect Electrical
+  let pad = 3pt
+  let pad2 = 12pt
+
+  grid(
+    columns: (50%, 50%),
+    rows: (100%),
+    grid.cell(
+      x: 0,
+      y: 0,
+      rowspan: 1,
+      colspan: 1,
+    )[
+      #move(dy: pad, dx: pad2)[
+        #par(justify: true)[
+          #list(
+            indent: 15pt,
+            tight: false,
+            [
+              #text(size: 10pt, weight: "extralight")[
+                #text(weight: "semibold")[Staffeur anti VSS], 09/2023 - 01/2025
+                #linebreak()
+                Surveillance anti VSS lors des soirées étudiantes
+                #linebreak()
+                #text(weight: "semibold")[Gif-sur-Yvette] • Association çapèse
+              ]
+            ],
+            [
+              #text(size: 10pt, weight: "extralight")[
+                #text(weight: "semibold")[Staffeur commandes], 09/2023 - 01/2025
+                #linebreak()
+                Préparateur de commandes de produits locaux
+                #linebreak()
+                #text(weight: "semibold")[Gif-sur-Yvette] • Association Impact - Pépin
+              ]
+            ],
+            [
+              #text(size: 10pt, weight: "extralight")[
+                #text(weight: "semibold")[Aide aux devoirs], 09/2021 - 06/2022
+                #linebreak()
+                Aide aux devoirs du collège
+                #linebreak()
+                #text(weight: "semibold")[Versailles] • ARPEJ
+              ]
+            ]
+          )
+        ]
+      ]
+    ],
+    grid.cell(
+      x: 1,
+      y: 0,
+      rowspan: 1,
+      colspan: 1,
+    )[
+      #move(dy: pad, dx: -pad2)[
+        #par(justify: true)[
+          #list(
+            indent: 15pt,
+            tight: false,
+            [
+              #text(size: 10pt, weight: "extralight")[
+                #text(weight: "semibold")[Contributeur robotique et IA], 05/2024 - 09/2024
+                #linebreak()
+                Création de #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : programmation de bras
+                #linebreak()
+                articulés faible et gros budget pour de l'apprentissage
+                #linebreak()
+                par téléopération
+                #linebreak()
+                #text(weight: "semibold")[Paris] • 1ms.ai & HuggingFace
+              ]
+            ],
+            [
+              #text(size: 10pt, weight: "extralight")[
+                #text(weight: "semibold")[Stagiaire opérateur], 06/2024 - 07/2024
+                #linebreak()
+                Production de parafoudre basse tension
+                #linebreak()
+                #text(weight: "semibold")[Lyon] • Eurotect Electrical
+              ]
+            ],
+          )
+        ]
       ]
     ]
-    #move(dy: pad)[
-      #text(size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[• Stagiaire 1ms.ai et HuggingFace], 05/2024 - 09/2024
-        #linebreak()
-        Création de #text(weight: "semibold", size: 12pt)[`dora-lerobot`] • #text(weight: "semibold")[Paris] • 1ms.ai & HuggingFace
-      ]
-    ]
-    #move(dy: pad)[
-      #text(size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[• Staffeur çapèse soirées], 09/2023 - Aujourd'hui
-        #linebreak()
-        Surveillance anti VSS • #text(weight: "semibold")[Gif-sur-Yvette] • Association çapèse
-      ]
-    ]
-    #move(dy: pad)[
-      #text(size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[• Staffeur Pépin], 09/2023 - Aujourd'hui
-        #linebreak()
-        Préparateur de commandes de produits locaux • #text(weight: "semibold")[Gif-sur-Yvette] • Association Impact
-      ]
-    ]
-    #move(dy: pad)[
-      #text(size: 10pt, weight: "extralight")[
-        #text(weight: "semibold")[• Aide aux devoirs], 09/2021 - 06/2022
-        #linebreak()
-        Aide aux devoirs du collège • #text(weight: "semibold")[Versailles] • ARPEJ
-      ]
-    ]
-  ]
+  )
 }
 
 #show: cv.with(
