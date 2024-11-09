@@ -215,7 +215,7 @@
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold")[2nd year Engineer] : Electrical energy, electronic systems, wave physics, thermodynamics, thermal, autonomous vehicles
+          #text(weight: "semibold")[Engineering degree] : Electrical energy, electronic systems, wave physics, thermodynamics, thermal, autonomous vehicles
           #linebreak()
           #text(weight: "semibold")[CentraleSupélec | Gif-sur-Yvette]
         ]

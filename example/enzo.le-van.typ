@@ -215,7 +215,7 @@
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold")[2ème année Ingénieur] : Energie électrique, systèmes électroniques, physique
+          #text(weight: "semibold")[Diplôme d'ingénieur] : Energie électrique, systèmes électroniques, physique
           des ondes, thermodynamique, thermique, véhicules autonomes
           #linebreak()
           #text(weight: "semibold")[Ecole CentraleSupélec | Gif-sur-Yvette]
@@ -269,18 +269,10 @@
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-rs`] : Contribution à une bibliothèque de robotique
-          #linebreak()
-          #text(weight: "semibold")[Organisation #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
-        ]
-      ],
-      [
-        #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : Intégration d'une bibliothèque de robotique et d'IA
+          #text(weight: "semibold", size: 12pt)[`dora-rs` / `dora-lerobot`] : Contribution à une bibliothèque de robotique
           #linebreak(justify: true)
-          sur des bras articulés
-          #linebreak()
-          #text(weight: "semibold")[HuggingFace | Python]
+          Intégration d'une bibliothèque de robotique et d'IA sur des bras articulés.
+          #text(weight: "semibold")[Organisation #text(weight: "semibold", size: 12pt)[`dora-rs`], Hugging Face | Rust & Python]
         ]
       ],
       [
@@ -385,7 +377,7 @@
               #text(size: 10pt, weight: "extralight")[
                 #text(weight: "semibold")[Stagiaire opérateur], 06/2024 - 07/2024
                 #linebreak()
-                Production de parafoudre basse tension
+                Production de parafoudres basse tension
                 #linebreak()
                 #text(weight: "semibold")[Lyon] • Eurotect Electrical
               ]
