@@ -268,18 +268,10 @@
       ],
       [
         #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-rs`] : Contribution to a library for robotics
+          #text(weight: "semibold", size: 12pt)[`dora-rs` / `dora-lerobot`] : Contribution to a library for robotics
           #linebreak()
-          #text(weight: "semibold")[Organization #text(weight: "semibold", size: 12pt)[`dora-rs`] | Rust & Python]
-        ]
-      ],
-      [
-        #text(size: 10pt, weight: "extralight")[
-          #text(weight: "semibold", size: 12pt)[`dora-lerobot`] : Integration of a robotics and AI library
-          #linebreak(justify: true)
-          on articulated arms
-          #linebreak()
-          #text(weight: "semibold")[HuggingFace | Python]
+          Integration of a robotics and AI library on articulated arms.
+          #text(weight: "semibold")[Organization #text(weight: "semibold", size: 12pt)[`dora-rs`], Hugging Face | Rust & Python]
         ]
       ],
       [
